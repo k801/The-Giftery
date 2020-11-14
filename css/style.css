@@ -1,0 +1,215 @@
+/* 
+colors
+ / 
+#000 /#fff / #333 / #e899c2 / #39a2da / #eaac9e / #8b8b8b / #5b5b5b / #fafafa /#595959
+
+*/
+
+
+:root{
+  --black:#000;
+  --lightColor:#fff;
+  --darkColor:#333;
+  --pinkColor: #e899c2;
+  --blueLight: #39a2da;
+  --lightRed: #eaac9e ;
+  --lightGray: #8b8b8b;
+  --darkGray: #5b5b5b;
+  --darkWhite: #fafafa;
+  --iconColor : #595959;
+}
+
+body{
+  height: 3000px;
+}
+
+a {
+   text-decoration: none !important; 
+   color: var(--lightGray);
+}
+
+/* start main header */
+.main-header{
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+/* start ads content */
+.ads{
+  background-color: var(--pinkColor) !important;
+  padding: 10px;
+  display: flex;
+  color: var(--lightColor);
+}
+
+.shapping-times{
+  color: var(--darkColor);
+  background-color: var(--blueLight);
+  padding: 2px 10px; 
+  font-size: .75rem;
+}
+.shapping-times:hover{
+  color: var(--lightColor);
+}
+.ads-span{
+  font-size: 1rem;
+  /* margin-right: 10px; */
+}
+
+.closed{
+  background-color: var(--darkColor);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* end ads content */
+
+/* start info-bar */
+.info-bar{
+  background-color: var(--blueLight);
+  
+}
+.bar-hide{
+  color: var(--lightColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blueLight);
+  width: 25px;
+  height: 30px;  
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: fixed;
+  left: 50px;
+}
+.bar-hide i {
+  cursor: pointer;
+ }
+ .bar-hide i:hover {
+  color: var(--darkColor);
+ }
+.list-menu a {
+  color: var(--lightColor);
+  text-transform: capitalize;
+  font-size: .8rem;
+}
+.tel{
+  color: var(--black);
+}
+
+/* End info-bar */
+
+/* start nav-bar & top-menu  */
+
+.up-menu a{
+  color: var(--iconColor);
+}
+
+/* end nav-bar & top-menu  */
+
+/* end main header */
+
+
+
+/* Start slider */
+
+.slider{
+  margin-top: 140px !important ;
+}
+
+
+
+ /* .carousel-item{
+  background-image: url(../images/slider/Light-Blue-Triangle.png);
+  background-size: 100% 134%;
+  background-repeat: no-repeat;
+  background-position: 5% 100%;
+  position: relative;
+}  */
+ /* .carousel-item img{
+  width: 50% !important;
+  height: 30% !important;
+} 
+ */
+.carousel-indicators li{
+  background-color: #000;
+ 
+ }
+.carousel-caption {
+  width: 50%;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  z-index: 2;
+}  
+
+/* End slider */
+
+/* start banner */
+.card-img {
+  overflow: hidden;
+}
+.card-img img{
+  width: 100%;
+  transition: all 1s ease;
+}
+.card-img img:hover{
+  transform: scale(1.05);
+}
+/* end banner */
+
+/* start trending */
+.change{
+  color: var(--blueLight);
+}
+.trending li a{
+  transition: all .5s ease;
+}
+.trending li a:hover{
+  color: var(--black);
+}
+.trending li a:focus{
+  background-color: var(--lightRed);
+  padding: 5px 20px ;
+  border-radius: 20px;
+ 
+}
+.trending .loading a{
+  font-size: .8rem;
+ 
+}
+.trending .loading a:hover{
+  color: var(--darkColor);
+}
+.trending .loading a:hover i{
+  transform: rotateZ(180deg);
+  transition:  transform 1s ease-in-out;
+}
+
+/* end trending */
+
+/* start contact */
+
+.contact{
+  background-color: var(--darkWhite);
+}
+
+.contact li,.contact a{
+  color: var(--iconColor);
+}
+.subscribe{
+  background-color: var(--blueLight);
+  color: var(--lightColor);
+}
+.subscribe:hover{
+  color: var(--lightColor);
+}

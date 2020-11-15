@@ -209,3 +209,40 @@ a {
 .subscribe:hover{
   color: var(--lightColor);
 }
+.navbar ul li{
+
+  padding-left: 10px;
+}
+.navbar{
+
+  background-color: #333 !important;
+
+
+}
+.novmber{
+margin-top: 200px;
+  width: 100%;
+  height: 150PX;
+  background-image: url('../images/christmas/Black-November-Store-Banners-768x97.jpg');
+  background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+}
+
+
+
+
+.pagination {
+  display: inline-block;
+  /* border: .1px solid #5b5b5b !important; */
+}
+
+.pagination a{
+color: #333333;
+font-weight: 500;
+font-size: 18px;
+float: left;
+padding: 0px 26px;
+text-decoration: none;
+}
+

@@ -248,6 +248,18 @@ position: fixed;
 right: -33%;
 z-index: 444;
 }
+
+.cart{
+
+width: 30%;
+height: 100%;
+background-color: #fff;
+position: fixed;
+right: -33%;
+z-index: 444;
+
+
+}
 .slider-content{
 
 height: 70%;

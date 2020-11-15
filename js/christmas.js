@@ -13,7 +13,8 @@ console.log($offser_container);
 $('.right-row,.slider-content button').click(function(){
 
 
-    $('.right_slide').css({'transform':'translate(105%)','transition':'all 2s '});
+    $('.right_slide,.cart').css({'transform':'translate(105%)','transition':'all 2s ',});
+    $('.right-row').css({'backgroundColor':'white'})
 
 // $('.right_slide').css({'right':'0px'});
 
@@ -24,6 +25,17 @@ $('.fa-heart').click(function(){
 
 
     $('.right_slide').css({'transform':'translate(-100%)','transition':'all 1s '});
+
+// $('.right_slide').css({'right':'0px'});
+
+
+})
+
+
+$('.cart_link').click(function(){
+
+
+    $('.cart').css({'transform':'translate(-100%)','transition':'all 1s '});
 
 // $('.right_slide').css({'right':'0px'});
 

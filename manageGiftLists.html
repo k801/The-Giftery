@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link => Font  -->
+
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- FontAwesome Css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Login Style -->
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Start top header -->
+    <header class="main-header ">
+
+        <!-- start Ads content  -->
+        <div class="ads">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1 p-0  ">
+                        <a href="#" class="shapping-times">SHIPPING TIMES</a>
+                    </div>
+                    <div class="col-md-10 col-sm-10 text-center ">
+                        <span class="ads-span">
+                            Due to the current circumstances and some stores being shut, some orders might be delivered
+                            later than the
+                            stated shipping times! Thank you for bearing with us
+                        </span>
+                    </div>
+                    <div class="col-md-1 col-sm-1 text-center">
+                        <div class="closed">
+                            <i class="fas fa-times " id="close"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- End Ads content  -->
+
+        <!-- start info bar -->
+        <div class="info-bar text-white">
+            <div class="container-fluid">
+                <div class="row  align-items-center">
+
+                    <div class="col-md-8  ">
+                        <div class="">
+                            Call <span class="tel">+201221103868</span> (Sun-Thur From 9:30 To 5:30)
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 d-none d-md-block pt-2  ">
+                        <div class="list-menu ">
+                            <ul class="list-unstyled d-flex ">
+
+                                <li class="px-2">
+                                    <a href="manageGiftLists.html">manage gift list</a>
+                                </li>
+                                <li class="px-2">
+                                    <a href="#"> order tracking</a>
+                                </li>
+                                <li class="px-2">
+                                    <i class="fas fa-user-circle"></i>
+                                    <a href="manageGiftLists.html">login</a>
+                                    /
+                                    <a href="manageGiftLists.html">register</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bar-hide">
+            <i class="fas fa-angle-up" id="toggle"></i>
+        </div>
+
+        <!-- end info bar -->
+
+        <!-- start nav-bar & top-menu -->
+        <section class="top-menu ">
+            <div class="up-menu py-3 bg-light">
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-md-2 d-none d-md-block  pt-3">
+                            <div class="social-media px-4">
+                                <a class="mx-2" href="#"> <i class="fab fa-twitter"></i></a>
+                                <a class="" href="#"> <i class="fab fa-facebook-f "></i> </a>
+                                <a class="mx-2" href="#"> <i class="fas fa-envelope "></i> </a>
+                                <a class="" href="#"> <i class="fab fa-instagram "></i> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-auto ">
+                            <img src="images/logo-thegiftery.png" alt="">
+                        </div>
+                        <div class="col-md-2 col-sm-auto">
+
+                            <div class="icon-menu pt-3">
+                                <a class="mx-2" href="#">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </a>
+                                <a class="mx-2" href="#">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
+                                <a class="mx-2" href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+
+                                <a class="mx-2" href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Black Friday</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Categories
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <a class="dropdown-item" href="#"> test </a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Christmas and New Year</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gift Collections</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Shop by
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gift Lists</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- end nav-bar & top-menu -->
+    </header>
+    <!-- end top header -->
+
+
+    <!-- Start Login Section  -->
+
+    <section id="login">
+        <div class="container pt-5">
+            <div class="w-50 m-auto px-5">
+                <div class="text-center">
+                    <h2 class="h2 font-weight-bold">Login/Register</h2>
+                    <p class="font-weight-bold">Great to have you back !</p>
+                </div>
+                <div class="login">
+                    <form action="">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <label for="">Username or email <span class="text-danger">*</span>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Remember
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            </label>
+                            <input class="form-control" type="text" name="" id="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Password <span class="text-danger">*</span></label>
+                            <input class="form-control" type="text" name="" id="">
+                        </div>
+                        <br>
+                        <button class="btn btn-color-login w-100">SIGN IN TO YOUR ACOUNT</button>
+                    </form>
+                    <div class="pt-3">
+                        <h3 class="h6">
+                            OR LOGIN WITH
+                        </h3>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-facebook w-75 my-2"><span><i
+                                    class="fa-lg fab fa-facebook text-left"></i></span>
+                            Continue
+                            with <b>Facebook</b> </button>
+                        <br>
+                        <button class="btn btn-google w-75 my-2"><span><i class=" fa-lg fab fa-google"></i></span>
+                            Continue
+                            with <b>Google</b> </button>
+                    </div>
+                </div>
+                <div class="text-center pt-3">
+                    <p>New here? <a href="" class="text-primary ">Create an account</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Login Section  -->
+
+    <!-- Start contact -->
+    <section class="contact pt-5 pb-4 border-top border-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="c1">
+                        <div class="mb-4">
+                            <img src="images/logo-thegiftery.png" alt="">
+                        </div>
+
+                        <div class="py-1">
+                            <ul class="list-unstyled">
+                                <li class="py-1">Golf land, Heliopolis, Cairo.</li>
+                                <li class="py-1">(+2)0122-110-3868</li>
+                                <li class="py-1"><a href="#">customersupport@thegiftery.com </a> </li>
+                                <li class="py-1"> <a href="#"> www.shop.thegiftery.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="c2">
+                        <div class="social-media mb-5">
+                            <a class="mx-2" href="#"> <i class="fab fa-twitter"></i></a>
+                            <a class="" href="#"> <i class="fab fa-facebook-f "></i> </a>
+                            <a class="mx-2" href="#"> <i class="fas fa-envelope "></i> </a>
+                            <a class="" href="#"> <i class="fab fa-instagram "></i> </a>
+                        </div>
+
+                        <div class="py-2">
+                            <ul class="list-unstyled">
+                                <li class="py-1"><a href="#">FAQ </a></li>
+                                <li class="py-1"><a href="#">Privacy Policy</a></li>
+                                <li class="py-1"><a href="#">Terms & Conditions </a> </li>
+                                <li class="py-1"> <a href="#">Shipping & Return policy</a></li>
+                                <li class="py-1"> <a href="#">Search Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="c3">
+                        <div class=" ">
+                            <h3 class="mb-3">Newsletter</h3>
+                        </div>
+
+                        <div>
+                            <ul class="list-unstyled my-5">
+                                <li class="py-1"><a href="#">Customer Service</a></li>
+                                <li class="py-1"><a href="#">Privacy Policy</a></li>
+                                <li class="py-1"><a href="#">Terms & Conditions </a> </li>
+                                <li class="py-1"> <a href="#">Stores</a></li>
+                                <li class="py-1"> <a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 px-0 ">
+                    <div class="c4">
+                        <form class=" d-flex align-items-center justify-content-center">
+
+                            <input type="email" class="form-control mr-2 rounded-0 w-75 " id=""
+                                placeholder="Enter your email here ">
+
+                            <button type="submit"
+                                class="btn subscribe text-uppercase font-weight-bold px-3 rounded-0">subscribe</button>
+                        </form>
+
+                        <div class="w-75 mx-auto py-5">
+                            <h4 class="mb-3">Working days </h4>
+                            <ul class="list-unstyled w">
+                                <li class="border-bottom py-2">Sunday - Thursday</li>
+                                <li class="border-bottom py-2 text-center">Open 10:00 AM</li>
+                                <li class="text-center py-2">Close 06:00 PM</li>
+                            </ul>
+
+                            <img src="images/Payment-Methods-01.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer class="pt-3 bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2020 The Giftery. All Rights Reserved.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="py-2">
+                        <ul class="list-unstyled d-flex justify-content-end">
+                            <li class="mx-2"><a href="#">Privacy Policy</a></li>
+                            <li class="mx-2"><a href="#">Terms & Conditions </a> </li>
+                            <li class="mx-2"> <a href="#">Accessibility</a></li>
+                            <li class="mx-2"> <a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+<!--Jquery Js  -->
+<script src="js/jquery-3.5.1.min.js"></script>
+<!-- Popper Js -->
+<script src="js/popper.min.js"></script>
+<!-- Bootstarp Js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Java Script -->
+<script src="js/main.js"></script>
+
+</html>

@@ -19,10 +19,6 @@ colors
   --iconColor : #595959;
 }
 
-body{
-  height: 3000px;
-}
-
 a {
    text-decoration: none !important; 
    color: var(--lightGray);

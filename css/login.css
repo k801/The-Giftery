@@ -1,0 +1,51 @@
+#login
+{
+    padding-top: 16rem;
+}
+.btn-color-login
+{
+    background-color: #39a2da;
+    color: #ffffff;
+}
+.btn-facebook
+{
+    background-color: #1877F2;
+    color: #ffffff;
+}
+.btn-google
+{
+    background-color: #dc4e41;
+    color: #ffffff;
+
+}
+.login
+{
+    padding: 20px 30px 30px 30px;
+    border: 2px dashed #ccc;
+}
+h3
+{
+    text-align: center;
+    position: relative;
+}
+h3::before
+{
+    content: "";
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    width: 30%;
+    height: 1px;
+}
+h3::after
+{
+    content: "";
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    width: 30%;
+    height: 1px;
+}
+
